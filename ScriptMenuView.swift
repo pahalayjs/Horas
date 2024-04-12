@@ -5,11 +5,14 @@
 //  Created by Pahala Sihombing on 23/02/24.
 //
 
+// MENU FOR ACCESSING THE BATAK SCRIPT
+
 import SwiftUI
 
 struct ScriptMenuView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        MenuButton(name: "MENU AKSARA BATAK")
+            .foregroundStyle(.red)
     }
 }
 
